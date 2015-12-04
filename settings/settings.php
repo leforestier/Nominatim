@@ -27,6 +27,9 @@
 	@define('CONST_Osmosis_Binary', '/usr/bin/osmosis');
 	@define('CONST_Tiger_Data_Path', CONST_BasePath.'/data/tiger');
 
+    // on FreeBSD, you should install gsed and set CONST_Sed_Binary to 'gsed'
+    @define('CONST_Sed_Binary', 'sed');
+
 	// osm2pgsql settings
 	@define('CONST_Osm2pgsql_Flatnode_File', null);
 
